@@ -23,7 +23,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
     var messages = [{ "role": "user", "content": message }];
 
     //put API link here:
-    fetch('https://geniusai.waveai-20.repl.co/v1/chat/completions', {
+    fetch('', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
